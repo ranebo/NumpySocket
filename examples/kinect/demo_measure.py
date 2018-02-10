@@ -21,6 +21,7 @@ def show_depth():
 
     depth, timestamp = freenect.sync_get_depth()
     viewable = depth #frame_convert.full_depth_cv (depth)
+    viewable = freenect.sync_get_video()[0]
     npSocket.sendNumpy(viewable)
     #roi = cv.GetSubRect (frame_convert.raw_depth_cv (depth), sense_rect)
     #pix = cv.Avg (roi)[0]
