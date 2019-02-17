@@ -1,0 +1,12 @@
+README.md
+setup.py
+Numpy_Socket.egg-info/PKG-INFO
+Numpy_Socket.egg-info/SOURCES.txt
+Numpy_Socket.egg-info/dependency_links.txt
+Numpy_Socket.egg-info/not-zip-safe
+Numpy_Socket.egg-info/requires.txt
+Numpy_Socket.egg-info/top_level.txt
+numpysocket/__init__.py
+numpysocket/npsocketclient.py
+numpysocket/npsocketserver.py
+numpysocket/numpysocket.py

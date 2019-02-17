@@ -8,7 +8,11 @@ setuptools.setup(name='Numpy Socket',
                  author="Steven A. Bjornson",
                  author_email='info@sabjorn.net',
                  url='',
-                 py_modules=['numpysocket.numpysocket'],
+                 py_modules=[
+                     'numpysocket.numpysocket',
+                     'numpysocket.npsocketclient',
+                     'numpysocket.npsocketserver'
+                    ],
                  install_requires=['numpy'],
                  license='MIT License',
                  zip_safe=False,
