@@ -1,3 +1,1 @@
-from numpysocket import NumpySocket
-from npsocketserver import NumpySocketServer
-from npsocketclient import NumpySocketClient
+from numpysocket import NumpySocketServer, NumpySocketClient

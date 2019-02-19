@@ -9,7 +9,6 @@ setuptools.setup(name='Numpy Socket',
                  author_email='info@sabjorn.net',
                  url='',
                  py_modules=[
-                     'numpysocket.numpysocket',
                      'numpysocket.npsocketclient',
                      'numpysocket.npsocketserver'
                     ],
